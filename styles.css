@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.poster {
+  height: 150vh;
+  margin: 10px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.section-one {
+  display: block;
+  background-color: #fac8be;
+  border: solid 1px white;
+  border-bottom: none;
+  max-width: 1450px;
+  min-width: 1450px;
+  min-height: 535px;
+  max-height: 535px;
+}
+
+.workshop {
+  margin-left: 145px;
+  margin-top: 150px;
+}
+
+.workshop p {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.ion {
+  float: right;
+  transform: rotate(-90deg);
+  border-bottom: solid #fff 3px;
+  margin-top: -1%;
+}
+
+.ion p {
+  width: 230px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  margin-left: 63%;
+}
+
+.cross {
+  height: 200px;
+  width: 200px;
+  margin-left: 815px;
+  margin-top: 143px;
+  padding: 0;
+}
+
+.line-one {
+  background-color: #f54932;
+  height: 15px;
+  transform: rotate(-45deg);
+}
+.line-two {
+  background-color: #f54932;
+  height: 15px;
+  margin-top: -15px;
+  transform: rotate(45deg);
+}
+
+.floating {
+  margin-left: 150px;
+  margin-top: -280px;
+  position: absolute;
+  height: 700px;
+  width: 850px;
+  z-index: 1;
+}
+.floating h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 11rem;
+  line-height: 99%;
+}
+
+.section-two {
+  margin-top: 0;
+  height: 90%;
+  max-width: 1450px;
+  min-width: 1450px;
+  min-height: 1330px;
+  max-height: 1330px;
+  background-color: #224149;
+  border: solid 1px white;
+  border-top: none;
+}
+
+.author {
+  margin-left: 140px;
+  margin-top: 420px;
+  color: #fff;
+}
+
+.author h3 {
+  font-size: 2.7rem;
+  font-family: "Oxygen Mono", monospace;
+  font-weight: 50;
+}
+.author p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Oxygen Mono", monospace;
+}
+
+.forum {
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 30px;
+  height: 250px;
+  width: 250px;
+}
+
+.forum h3 {
+  font-family: "Oxygen Mono", monospace;
+  font-weight: 200;
+  color: #fff;
+  font-size: 2.5rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.line-three {
+  background-color: #f54932;
+  height: 15px;
+  width: 195px;
+  transform: rotate(-45deg);
+}
+
+.robot {
+  height: 430px;
+  width: 430px;
+  margin-top: -170px;
+  margin-left: 740px;
+}
+
+.address {
+  border-bottom: #fff solid 2px;
+  margin-left: 140px;
+  width: 500px;
+  padding-bottom: 12px;
+  margin-top: 50px;
+}
+
+.address span {
+  color: #fff;
+  font-weight: 800;
+}
+
+.url {
+  float: right;
+}
+
+.hide-me {
+  color: #224149;
+}
+
+.plus {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin-top: -80px;
+  margin-right: 60px;
+}
+
+.plus-line-one {
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+}
+.plus-line-two {
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform: rotate(90deg);
+  margin-left: -2px;
+}
+
+.minus {
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform: rotate(90deg);
+  margin-left: -5px;
+  margin-top: 70px;
+}
